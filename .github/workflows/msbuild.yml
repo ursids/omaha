@@ -34,7 +34,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.2
 
     - name: Setup Python
-      uses: actions/setup-python@v5.1.0
+      uses: LizardByte/setup-python-action@master
       with:
        python-version: 2.7
 
